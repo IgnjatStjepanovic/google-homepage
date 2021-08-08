@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+nav {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navleft {
+  padding: 10px;
+}
+
+.navleft a {
+  padding: 10px;
+}
+
+.navright {
+  display: flex;
+  padding: 10px;
+}
+
+.navright a {
+  padding: 10px;
+}
+
+.navright img {
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.googlelogo {
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.searchfield {
+  width: 100vh;
+  margin: 20px;
+  border-radius: 40px;
+  height: 40px;
+  max-width: 500px;
+  min-width: 300px;
+  border: 1px solid #e1e1e1;
+  font-size: initial;
+}
+
+input {
+  padding: 0 40px 0 40px;
+}
+
+.searchbuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.searchbuttons a {
+  padding: 10px;
+  background-color: #eee;
+  margin: 10px;
+  height: auto;
+  border-radius: 5px;
+  color: #3c4043;
+  cursor: pointer;
+  border-color: #c0c0c0;
+  border: 1px solid #fff;
+}
+
+.searchbuttons a:hover {
+  border: 1px solid #c0c0c0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footerbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+  width: 100%;
+  padding: 10px;
+}
+
+.footerleft {
+  padding: 10px;
+}
+
+.footerleft a {
+  padding: 10px;
+}
+
+.footerright {
+  padding: 10px;
+}
+
+.footerright a {
+  padding: 10px;
+}
