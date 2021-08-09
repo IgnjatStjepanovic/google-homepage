@@ -12,11 +12,13 @@ nav {
 }
 
 .navleft {
+  display: flex;
   padding: 10px;
 }
 
 .navleft a {
-  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
 }
 
 .navright {
@@ -25,11 +27,13 @@ nav {
 }
 
 .navright a {
-  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
 }
 
 .navright img {
-  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
 }
 
 main {
@@ -102,17 +106,21 @@ footer {
 }
 
 .footerleft {
+  display: flex;
   padding: 10px;
 }
 
 .footerleft a {
-  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
 }
 
 .footerright {
+  display: flex;
   padding: 10px;
 }
 
 .footerright a {
-  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
 }
