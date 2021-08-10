@@ -1,5 +1,10 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;  
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  height: 64px;
 }
 
 nav {
@@ -39,7 +44,8 @@ nav {
 main {
   display: flex;
   flex-direction: column;
-  margin-top: 150px;
+  justify-content: center;
+  height: calc(100vh - 128px);
 }
 
 .googlelogo {
@@ -61,7 +67,6 @@ form {
   border-radius: 40px;
   height: 40px;
   max-width: 500px;
-  min-width: 300px;
   border: 1px solid #e1e1e1;
   font-size: initial;
 }
@@ -74,6 +79,7 @@ input {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  white-space: nowrap;
 }
 
 .searchbuttons a {
@@ -94,6 +100,7 @@ input {
 
 footer {
   position: fixed;
+  height: 64px;
   bottom: 0;
 }
 
@@ -102,7 +109,6 @@ footer {
   justify-content: space-between;
   background-color: #eee;
   width: 100%;
-  padding: 10px;
 }
 
 .footerleft {
@@ -113,6 +119,7 @@ footer {
 .footerleft a {
   cursor: pointer;
   margin: 10px;
+  white-space: nowrap;
 }
 
 .footerright {
